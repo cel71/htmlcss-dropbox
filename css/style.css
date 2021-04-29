@@ -27,12 +27,12 @@ ul{
 
 .container1{
     width: 100%;
+    position: relative;
 }
 
 .navbar{
-    height: 100px;
-    position: relative;
-    background-color: red;
+    display: inline-block;
+    height: 80px;
 }
 
 .logo{
@@ -52,19 +52,22 @@ li{
 
 .lista2{
     display: inline-block;
-    height: 100px;
     line-height: 100px;
+    position: absolute;
+    right: 120px;
 }
 
 .login{
+    background-color: rgb(0, 97, 255);
+    color: white;
+    padding: 5px 15px;
     display: inline-block;
-    height: 100px;
-    line-height: 100px;
     position: absolute;
-    right: 0;
+    right: 20px;
+    top: 30px;
 }
 
-
+/* jumbo */
 
 .jumbo-container{
     max-width: 100%;
