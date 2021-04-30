@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-.clearfix{
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
@@ -117,3 +117,204 @@ li{
     display: inline-block;
     margin-top: 20px;
 }
+
+/* seconda sezione */
+/* contenitore due */
+
+.container2{
+    width: 1000px;
+    height: 800px;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 200px;
+  }
+  
+  .scritta1{
+    float: left;
+    padding-right: 30px;
+  }
+  
+  .cerchio{
+    font-size: 20px;
+  }
+  
+  .box1{
+    display: inline-block;
+    background-color: red;
+    width: calc(100% / 3 - 20px);
+    margin-right: 20px;
+    margin-top: 40px;
+    height: 600px;
+  }
+  
+  .box2{
+    display: inline-block;
+    background-color: red;
+    width: calc(100% / 3 - 40px);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    height: 600px;
+  }
+  
+  .box3{
+    display: inline-block;
+    background-color: red;
+    width: calc(100% / 3 - 20px);
+    margin-left: 20px;
+    margin-top: 40px;
+    height: 600px;
+  }
+
+  /* contenitore tre */
+
+  .container3{
+    width: 1000px;
+    height: 200px;
+    margin: 0 auto;
+    border: 1px solid black;
+    margin-top: 20px;
+  }
+  
+  .testo{
+    text-align: center;
+    border-bottom: 1px solid black;
+  }
+  
+  .boxs{
+    display: inline-block;
+    width: 60%;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 10px;
+    line-height: 50px;
+  }
+  
+  .boxd{
+    background-color: blue;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    width: 200px;
+    margin: 30px;
+    padding: 5px;
+  }
+
+  /* contenitore quattro */
+
+  .container4{
+    width: 1000px;
+    height: 450px;
+    margin: 0 auto;
+    border: 1px solid black;
+    margin-top: 80px;
+    position: relative;
+  }
+  
+  .c4immagine{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    background-image: url("../img/partner.png");
+    background-size: cover;
+  }
+
+  .c4testo{
+      display: inline-block;
+      width: 35%;
+      height: 100%;
+      position: absolute;
+      right: 0;
+      top: 120px;   
+  }
+
+  .c4t{
+      margin-top: 40px;
+  }
+
+  .c4t2{
+      width: 130px;
+      border: 1px solid black;
+      padding: 10px;
+  }
+
+  /* contenitore cinque*/
+
+  .container5{
+    width: 1000px;
+    margin: 0 auto;
+    border: 1px solid black;
+    margin-top: 80px;
+  }
+
+  .c5h1{
+      margin-bottom: 30px;
+
+  }
+  
+  .c5bf{
+    width: calc(100% / 3 - 30px);
+    margin: 15px;
+    height: 500px;
+    border: 1px solid black;
+  }
+
+  [class^="c5immagine-"]{
+      width: 100%;
+      height: 250px;
+      background-size: contain;
+      background-position: center;
+  }
+
+  .c5t{
+      margin-top: 20px;
+  }
+
+  .c5immagine-1{
+      background-image: url("../img/business-feature-switching-tools.png");
+  }
+
+  .c5immagine-2{
+    background-image: url("../img/business-feature-coordinate-it.png");
+}
+
+.c5immagine-3{
+    background-image: url("../img/business-feature-multi-device.png");
+}
+
+.c5immagine-4{
+    background-image: url("../img/business-feature-integrations-it.png");
+}
+
+.c5immagine-5{
+    background-image: url("../img/business-feature-send-files-it.png");
+}
+
+.c5immagine-6{
+    background-image: url("../img/business-feature-security.png");
+}
+
+/* testo singolo */
+
+.ts{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 40px;
+    line-height: 60px;
+}
+
+/* contenitore sei */
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
