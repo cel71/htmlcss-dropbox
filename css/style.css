@@ -294,7 +294,7 @@ li{
     background-image: url("../img/business-feature-security.png");
 }
 
-/* testo singolo */
+/* contenitore sei */
 
 .ts{
     width: 1000px;
@@ -303,7 +303,154 @@ li{
     line-height: 60px;
 }
 
-/* contenitore sei */
+/* contenitore sette */
+
+.container7{
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+  }
+  
+  .c71{
+    display: inline-block;
+    width: calc(100% / 3);
+    height: 100%;
+  }
+  
+  .c72{
+    display: inline-block;
+    width: calc(100% / 3);
+    height: 100%;
+  }
+  
+  .c73{
+    display: inline-block;
+    width: calc(100% / 3);
+    height: 100%;
+  }
+
+  [class^="c7immagine-"]{
+      width: 150px;
+      position:absolute;
+  }
+
+  .c71-1{
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+    position: relative;
+  }
+  
+  .c71-2{
+    width: 50%;
+    height: 50%;
+    background-color: green;
+    position: relative;
+  }
+  
+  .c71-3{
+    width: 50%;
+    height: 50%;
+    background-color: purple;
+    position: relative;
+  }
+  
+  .c71-4{
+    width: 50%;
+    height: 50%;
+    background-color: brown;
+    position: relative;
+  }
+  
+  .c71-5{
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+    position: relative;
+  }
+  
+  .c71-6{
+    width: 50%;
+    height: 50%;
+    background-color: green;
+    position: relative;
+  }
+  
+  .c71-7{
+    width: 50%;
+    height: 50%;
+    background-color: purple;
+    position: relative;
+  }
+  
+  .c71-8{
+    width: 50%;
+    height: 50%;
+    background-color: brown;
+    position: relative;
+  }
+
+  /* immagini c7 */
+
+  .c7immagine-1{
+    top: 40%;
+    left: 15%;
+  }
+
+  .c7immagine-2{
+    top: 20%;
+    left: 20%;
+  }
+
+  .c7immagine-3{
+    top: 45%;
+    left: 14%;
+  }
+
+  .c7immagine-4{
+    top: 35%;
+    left: 20%;
+  }
+
+  .c7immagine-5{
+    top: 35%;
+    left: 18%;
+  }
+
+  .c7immagine-6{
+    top: 45%;
+    left: 16%;
+  }
+
+  .c7immagine-7{
+    top: 35%;
+    left: 16%;
+  }
+
+  .c7immagine-8{
+    top: 35%;
+    left: 20%;
+  }
+
+  .c72logo{
+    width: 120px;
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+  
+  .c72p{
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 80%;
+  }
+  
+  .c72t{
+    margin-top: 30px;
+    margin-left: 40px;
+  }
+  
+
+
 
 
 
